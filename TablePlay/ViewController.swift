@@ -19,7 +19,9 @@ class ViewController: UIViewController {
         
         view.addSubview(tableView)
         tableView.dataSource = self
-        tableView.register(UITableViewCell.self, forCellReuseIdentifier: "cell")
+        tableView.register(AutolayoutTableViewCell.self, forCellReuseIdentifier: "cell")
+        tableView.estimatedRowHeight = 44
+        tableView.rowHeight = UITableViewAutomaticDimension
     }
     
     override func updateViewConstraints() {
@@ -43,7 +45,17 @@ extension ViewController : UITableViewDataSource {
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
 
-        cell.textLabel?.text = "test"
+        guard let aCell = cell as? AutolayoutTableViewCell else {
+            return cell
+        }
+        
+        if indexPath.row == 0 {
+            aCell.extraView.label.text = "blah"
+        } else {
+            aCell.extraView.label.text = "blah \n blah \n blah \n blah"
+
+        }
+        
 
         return cell
     }

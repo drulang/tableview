@@ -15,6 +15,7 @@
 		8456562A1E7AD33200831F66 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 845656281E7AD33200831F66 /* LaunchScreen.storyboard */; };
 		845656351E7AD33300831F66 /* TablePlayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845656341E7AD33300831F66 /* TablePlayTests.swift */; };
 		845656401E7AD33300831F66 /* TablePlayUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8456563F1E7AD33300831F66 /* TablePlayUITests.swift */; };
+		8456564F1E7ADDCE00831F66 /* AutolayoutTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8456564E1E7ADDCE00831F66 /* AutolayoutTableViewCell.swift */; };
 		BAD397A4669BFDBC1E72536A /* Pods_TablePlayTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27259A3BB9E78D6696A883E0 /* Pods_TablePlayTests.framework */; };
 		DEC6C86567D497AEF220915D /* Pods_TablePlayUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33EC83C592F3A779A65494CC /* Pods_TablePlayUITests.framework */; };
 /* End PBXBuildFile section */
@@ -56,6 +57,7 @@
 		8456563B1E7AD33300831F66 /* TablePlayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TablePlayUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8456563F1E7AD33300831F66 /* TablePlayUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TablePlayUITests.swift; sourceTree = "<group>"; };
 		845656411E7AD33300831F66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8456564E1E7ADDCE00831F66 /* AutolayoutTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AutolayoutTableViewCell.swift; sourceTree = "<group>"; };
 		8A46EA6A39724229D5FB2649 /* Pods-TablePlayUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TablePlayUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TablePlayUITests/Pods-TablePlayUITests.release.xcconfig"; sourceTree = "<group>"; };
 		91C6D130739C567545A2E262 /* Pods-TablePlayUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TablePlayUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TablePlayUITests/Pods-TablePlayUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		FBA7F65EA5C2DDB98B70A438 /* Pods-TablePlay.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TablePlay.release.xcconfig"; path = "Pods/Target Support Files/Pods-TablePlay/Pods-TablePlay.release.xcconfig"; sourceTree = "<group>"; };
@@ -127,6 +129,7 @@
 				8456561F1E7AD33200831F66 /* AppDelegate.swift */,
 				845656211E7AD33200831F66 /* ViewController.swift */,
 				8456564D1E7AD57A00831F66 /* Supporting Files */,
+				8456564E1E7ADDCE00831F66 /* AutolayoutTableViewCell.swift */,
 			);
 			path = TablePlay;
 			sourceTree = "<group>";
@@ -456,6 +459,7 @@
 			files = (
 				845656221E7AD33200831F66 /* ViewController.swift in Sources */,
 				845656201E7AD33200831F66 /* AppDelegate.swift in Sources */,
+				8456564F1E7ADDCE00831F66 /* AutolayoutTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
